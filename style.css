@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 1em;
+    display: inline;
+}
+
+h1{
+    color: #0a3071;
+    font-size: 40px;
+    display: inline;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 5px #999;
+}
+.redes{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.red{
+    text-decoration: none;
+    color: #0a3071;
+    font-size: 40px;
+    display: inline;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 5px #999;
+    margin: 4px;
+    height: 50px;
+    width: 180px;
+}
+.red-icon{
+    width: 30px;
+}
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+
+.input-texto {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: hsla(0, 0%, 100%, 0.37);
+    border-radius: 1em;
+    padding: 10px;
+    box-shadow: 20px 20px 10px 10px rgba(114, 110, 110, 0.678) ;
+    
+    
+}
+                         
+
+.mensaje {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 90px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 1em;
+    padding: 10px;
+    box-shadow: 20px 20px 10px 10px rgba(114, 110, 110, 0.678) ;
+
+}
+
+.copiar {
+    margin-top: 2em;
+    margin-left: 220px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    border: none;
+    background:#fbfbfc;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0px 14px 56px -11px #000000;
+    width: 10em;
+    padding: 1em;
+    
+}
+.informacion {
+    margin: 3em;
+    font-size: 15px;
+    margin: 0PX;
+    display: flex;
+    justify-content: center;
+}
+.botones {
+    padding-left: 32%;
+    display: flex;
+    align-content: space-between;
+}
+
+.encriptar {
+
+    border-radius: 7px;
+    border: none;
+    background:#0a3071;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #000000;
+    width: 10em;
+    padding: 1em;
+
+}
+
+.desencriptar {
+    margin-left: 10px;
+    border-radius: 7px;
+    border: none;
+    background:#fbfbfc;
+    color: rgb(2, 2, 2);
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #000000;
+    width: 10em;
+    padding: 1em;
+
+
+}
+

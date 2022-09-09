@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,1,200" />
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><img  src="/imagenes/logoalura.png" alt="Logo de alura con la inicial da letra a"></div>
+        <h1>Encriptador 3000</h1>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/brayan-fabian-meza-pantoja-2234b9233" class="red">linkedin<img class="red-icon" src="imagenes/iconlinkedin.png" alt="linkedin"></a>
+            <a href="https://twitter.com/BryanMez09" class="red">twitter <img class="red-icon" src="imagenes/icontwitter.png" alt="twitter"></a>
+
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="box"><textarea class="input-texto" cols="40" rows="8" placeholder="Ingrese el texto aqui"></textarea></div>
+            <div id="div-desaparece">
+                
+                <h6 class="informacion"><span class="material-symbols-outlined">
+                    report
+                    </span>Solo letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>        
+        <section class="mensaje-box">
+            <textarea class="mensaje" cols="18" rows="8"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
